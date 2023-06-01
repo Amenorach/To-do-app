@@ -49,15 +49,10 @@ const refreshTodos = () => {
     const todoList = document.getElementById("todos");
     todoList.innerHTML = todos.map(todo => `
     <li data-id="${todo.id}">
-      ${todo.text}
       <ul>
         <li>
           <input type="radio" name="radio" id="radio1" ${todo.completed ? "checked" : ""}>
-          <label for="radio1">This is the first radio button</label>
-        </li>
-        <li>
-          <input type="radio" name="radio" id="radio2" ${todo.completed ? "" : "checked"}>
-          <label for="radio2">This is the second radio button</label>
+          <label for="radio1">${todo.text}</label>
         </li>
       </ul>
     </li>
