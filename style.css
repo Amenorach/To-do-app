@@ -1,0 +1,38 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.completed {
+    background-color: #aaa;
+}
